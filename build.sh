@@ -5,3 +5,6 @@
 /opt/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -c -o tinymix.o tinymix.c -I`pwd`/include
 /opt/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -o tinyplay tinyplay.o pcm.o
 /opt/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -o tinymix tinymix.o mixer.o 
+
+/opt/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -c -o voice_bb.o voice_bb.c -I`pwd`/include
+/opt/arm-2009q3/bin/arm-none-linux-gnueabi-gcc -o voice_bb voice_bb.o pcm.o -I`pwd`/include

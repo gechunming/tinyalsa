@@ -3,6 +3,9 @@ tinyalsa: a small library to interface with ALSA in the Linux kernel
 1.修改过tinyplay，可以播放带有fact部分的wav文件(在软件处理过的wav文件中经常存在)。
 2.使用build.sh进行编译，生成tinyplay和tinymix
 
+3.soundinclude 为内核里面的头文件，这个是在cscope的时候，分析代码用的。
+4.include里面是需要在编译的时候包含的头文件，取自android系统
+
 The aims are:
 
 - Provide a basic pcm and mixer API
